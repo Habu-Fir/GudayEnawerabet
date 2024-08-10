@@ -8,9 +8,7 @@ export default function Profile() {
     if (session.data?.user) {
         return <div>From client the user: is SignedIn</div>
     }
-    else {
-        return <div> from client the user: is not signedIN</div>
-    }
+    else { return <div> from client the user: is not signedIN</div> }
 
 
 }
